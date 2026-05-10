@@ -96,7 +96,7 @@ export class HomeComponent {
           name: section.adviser.name,
           section: section.title,
           role: 'Adviser',
-          image: `/photos/${section.id}/${section.adviser.image}`,
+          image: `photos/${section.id}/${section.adviser.image}`,
           label: `${section.adviser.name} — Adviser`
         });
       }
@@ -108,7 +108,7 @@ export class HomeComponent {
             name: officer.name,
             section: section.title,
             role: officer.role,
-            image: student ? `/photos/${section.id}/${student.image}` : '/photos/placeholder.jpg',
+            image: student ? `photos/${section.id}/${student.image}` : 'photos/placeholder.jpg',
             label: `${officer.name} — ${officer.role}`
           });
         }
@@ -120,7 +120,7 @@ export class HomeComponent {
             name: student.name,
             section: section.title,
             role: 'Student',
-            image: `/photos/${section.id}/${student.image}`,
+            image: `photos/${section.id}/${student.image}`,
             label: student.name
           });
         }
