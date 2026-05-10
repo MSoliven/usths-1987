@@ -167,23 +167,23 @@ export class SectionDetailComponent implements OnInit {
   }
 
   advisePath() {
-    return `/photos/${this.section()!.id}/${this.section()!.adviser.image}`;
+    return `photos/${this.section()!.id}/${this.section()!.adviser.image}`;
   }
 
   classPhotoPath() {
-    return `/photos/${this.section()!.id}/${this.section()!.cover.classPhoto}`;
+    return `photos/${this.section()!.id}/${this.section()!.cover.classPhoto}`;
   }
 
   studentPath(image: string) {
-    return `/photos/${this.section()!.id}/${image}`;
+    return `photos/${this.section()!.id}/${image}`;
   }
 
   otherPhotoPath(image: string) {
-    return `/photos/${this.section()!.id}/${image}`;
+    return `photos/${this.section()!.id}/${image}`;
   }
 
   getStudentPhoto(name: string) {
     const student = this.section()!.students.find((s: Student) => s.name === name);
-    return student ? this.studentPath(student.image) : '/photos/placeholder.jpg';
+    return student ? this.studentPath(student.image) : 'photos/placeholder.jpg';
   }
 }
