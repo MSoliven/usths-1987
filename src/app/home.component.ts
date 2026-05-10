@@ -11,8 +11,8 @@ import { sections, Student } from './models';
     <main class="page-shell">
       <section class="hero">
         <div>
-          <p class="eyebrow">USTHS Yearbook</p>
-          <h1>Search students, officers, and advisers</h1>
+          <p class="eyebrow">USTHS 1987 Yearbook</p>
+          <h1>Find your batchmates and advisers below.</h1>
           <p class="hero-copy">
             Type any name to find matching people across all sections.
           </p>
