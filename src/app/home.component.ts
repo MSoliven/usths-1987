@@ -101,18 +101,18 @@ export class HomeComponent {
         });
       }
 
-      for (const officer of section.officers) {
-        if (officer.name.toLowerCase().includes(queryValue)) {
-          const student = section.students.find((s: Student) => s.name === officer.name);
-          matches.push({
-            name: officer.name,
-            section: section.title,
-            role: officer.role,
-            image: student ? `photos/${section.id}/${student.image}` : 'photos/placeholder.jpg',
-            label: `${officer.name} — ${officer.role}`
-          });
-        }
-      }
+      // for (const officer of section.officers) {
+      //   if (officer.name.toLowerCase().includes(queryValue)) {
+      //     const student = section.students.find((s: Student) => s.name === officer.name);
+      //     matches.push({
+      //       name: officer.name,
+      //       section: section.title,
+      //       role: officer.role,
+      //       image: student ? `photos/${section.id}/${student.image}` : 'photos/placeholder.jpg',
+      //       label: `${officer.name} — ${officer.role}`
+      //     });
+      //   }
+      // }
 
       for (const student of section.students) {
         if (student.name.toLowerCase().includes(queryValue)) {
