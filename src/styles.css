@@ -48,8 +48,8 @@ select {
   gap: 0.5rem;
   padding: 0.35rem 0.9rem;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.5);
-  color: #4338ca;
+  background: #FECB32;
+  color: #202020;
   font-size: 0.9rem;
   font-weight: 700;
   margin-bottom: 1rem;
