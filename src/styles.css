@@ -439,6 +439,11 @@ select {
 }
 
 @media (max-width: 900px) {
+
+  .hero-logo img {
+    width: 200px;
+  }
+
   .page-shell {
     padding: 1.5rem 1rem 3rem;
   }
@@ -453,12 +458,29 @@ select {
 }
 
 @media (max-width: 640px) {
+
   .hero {
-    padding: 1.75rem 1.25rem;
+    flex-direction: column;
+  }
+
+  .hero-left {
+    display: contents; /* lets grandchildren participate in the flex flow directly */
+  }
+
+  .hero-logo {
+    order: 2;          /* text = 1 (default), logo = 2, search = 3 */
+  }
+
+  .hero-logo img {
+    transform: none;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;    /* center it */
   }
 
   .search-field {
     width: 100%;
+    order: 3;
   }
 
   .result-grid,
