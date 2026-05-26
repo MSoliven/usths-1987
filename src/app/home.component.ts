@@ -10,23 +10,29 @@ import { sections, Student } from './models';
   template: `
     <main class="page-shell">
       <section class="hero">
-        <div>
-          <p class="eyebrow">USTHS 1987 Yearbook</p>
-          <h1>Find your batchmates and advisers below.</h1>
-          <p class="hero-copy">
-            Type any name to find matching people across all sections.
-          </p>
+        <div class="hero-left">
+          <div>
+            <p class="eyebrow">USTHS 1987 Yearbook</p>
+            <h1>Find your batchmates and advisers below.</h1>
+            <p class="hero-copy">
+              Type any name to find matching people across all sections.
+            </p>
+          </div>
+
+          <label class="search-field">
+            <span class="search-label">Search names</span>
+            <input
+              type="search"
+              [value]="query()"
+              (input)="setQuery($any($event.target).value)"
+              placeholder="e.g. John Doe, Mr. Sanchez"
+            />
+          </label>
         </div>
 
-        <label class="search-field">
-          <span class="search-label">Search names</span>
-          <input
-            type="search"
-            [value]="query()"
-            (input)="setQuery($any($event.target).value)"
-            placeholder="e.g. John Doe, Mr. Sanchez"
-          />
-        </label>
+        <div class="hero-logo">
+          <img src="photos/../usths_logo.png" alt="USTHS Logo" />
+        </div>
       </section>
 
       <section class="results" *ngIf="query().trim().length > 0; else sectionListing">
