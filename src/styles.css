@@ -208,6 +208,7 @@ select {
   display: grid;
   gap: 0.75rem;
   padding: 1rem;
+  max-width: 500px;
 }
 
 .result-meta {
@@ -455,6 +456,10 @@ select {
   .students-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .result-card {
+    max-width: 75%;
+  }
 }
 
 @media (max-width: 640px) {
@@ -500,5 +505,10 @@ select {
   .section-title {
     font-size: 1.7rem;
   }
+
+  .result-card {
+    max-width: 100%;
+  }
+
 }
 
