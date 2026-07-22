@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration production --base-href \"/usths-1987/\"",
+    "postbuild": "copy dist\\usths-1987\\browser\\index.html dist\\usths-1987\\browser\\404.html",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
