@@ -367,7 +367,7 @@ export const sections: SectionData[] = [
       { name: 'Anna Merced G. Montana', image: 'students/anna-montana.webp' },
       { name: 'Ma. Suzette A. Ner', image: 'students/suzette-ner.webp' },
       { name: 'Ma. Rachel A. Noble', image: 'students/rachel-noble.webp' },
-      { name: 'Tricia C. Parino', image: 'students/tricia-parino.webp' },
+      { name: 'Tricia C. Pariño', image: 'students/tricia-parino.webp' },
       { name: 'Ma. Margarita C. Platon', image: 'students/margarita-platon.webp' },
       { name: 'Rosemarie E. Pulido', image: 'students/rosemarie-pulido.webp' },
       { name: 'Lydda Ludim V. Ragasa', image: 'students/lydda-ragasa.webp' },
