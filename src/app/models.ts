@@ -763,7 +763,7 @@ export const sections: SectionData[] = [
     officers: [
       { role: 'President', name: 'Jocelyn C. Hechanova', shortName: 'Jocelyn Hechanova' },
       { role: 'Vice-President', name: 'Raquel N. Magistrado', shortName: 'Raquel Magistrado' },
-      { role: 'Secretary', name: 'Maria Angelica M. Rena', shortName: 'Angelica Rena' },
+      { role: 'Secretary', name: 'Maria Angelica M. Reña', shortName: 'Angelica Rena' },
       { role: 'Treasurer', name: 'Maria Joy V. Osea', shortName: 'Joy Osea' },
       { role: 'P.R.O.', name: 'Leila H. Palma', shortName: 'Leila Palma' },
       { role: 'Sgt. at Arms', name: 'Jonathan G. Baltazar', shortName: 'Jonathan Baltazar' }
