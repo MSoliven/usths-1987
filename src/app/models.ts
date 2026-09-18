@@ -408,7 +408,7 @@ export const sections: SectionData[] = [
     students: [
       { name: 'Allan Christopher S. Agati', image: 'students/allan-agati.webp' },
       { name: 'Joseph Almario Q. Aguas', image: 'students/joseph-aguas.webp' },
-      { name: 'Regan Z. Arcega', image: 'students/regan-arcega.webp' },
+      { name: 'Reagan Z. Arcega', image: 'students/reagan-arcega.webp' },
       { name: 'Chito G. Arevalo', image: 'students/chito-arevalo.webp' },
       { name: 'Carmelo Q. Aribon', image: 'students/carmelo-aribon.webp' },
       { name: 'Efren B. Baniqued', image: 'students/efren-baniqued.webp' },
@@ -808,7 +808,7 @@ export const sections: SectionData[] = [
       { name: 'Luisa Trinita S. Rañada', image: 'students/luisa-ranada.webp' },
       { name: 'Maria Angelica M. Reña', image: 'students/maria-rena.webp' },
       { name: 'Anna Lisa D. Rivera', image: 'students/anna-rivera.webp' },
-      { name: 'Christine P. Salando', image: 'students/christine-salando.webp' },
+      { name: 'Christine P. Sabando', image: 'students/christine-sabando.webp' },
       { name: 'Relynn F. Salanguit', image: 'students/relynn-salanguit.webp' },
       { name: 'Mary Claire N. Serra', image: 'students/mary-serra.webp' },
       { name: 'Maria Rosanna S. Sian', image: 'students/maria-sian.webp' },
