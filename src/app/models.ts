@@ -408,7 +408,7 @@ export const sections: SectionData[] = [
     students: [
       { name: 'Allan Christopher S. Agati', image: 'students/allan-agati.webp' },
       { name: 'Joseph Almario Q. Aguas', image: 'students/joseph-aguas.webp' },
-      { name: 'Reagan Z. Arcega', image: 'students/reagan-arcega.webp' },
+      { name: 'Regan Z. Arcega', image: 'students/regan-arcega.webp' },
       { name: 'Chito G. Arevalo', image: 'students/chito-arevalo.webp' },
       { name: 'Carmelo Q. Aribon', image: 'students/carmelo-aribon.webp' },
       { name: 'Efren B. Baniqued', image: 'students/efren-baniqued.webp' },
