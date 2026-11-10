@@ -12,6 +12,10 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
+## Temporarily disable the site
+
+Set `maintenanceMode` to `true` in `src/app/app.ts` to show the under-construction page instead of the routed site. Set it back to `false` to restore the site. This replaces the Angular UI only; configure your hosting provider separately if you need HTTP 503 responses or to block access to APIs.
+
 ## Code scaffolding
 
 Angular CLI includes powerful code scaffolding tools. To generate a new component, run:

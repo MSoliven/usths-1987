@@ -1,2 +1,15 @@
-﻿<router-outlet />
-
+@if (maintenanceMode) {
+  <main class="maintenance-page">
+    <section class="maintenance-card" aria-labelledby="maintenance-title">
+      <img class="maintenance-logo" src="usths_logo.png" alt="USTHS logo">
+      <p class="maintenance-label">We'll be back soon</p>
+      <h1 id="maintenance-title">Under construction</h1>
+      <p class="maintenance-message">
+        We're making a few updates to the USTHS 1987 yearbook website.
+        Please check back soon.
+      </p>
+    </section>
+  </main>
+} @else {
+  <router-outlet />
+}

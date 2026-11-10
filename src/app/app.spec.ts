@@ -14,10 +14,11 @@ describe('App', () => {
     expect(app).toBeTruthy();
   });
 
-  it('should render title', async () => {
+  it('should show the maintenance page when maintenance mode is enabled', async () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, usths-1987');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Under construction');
+    expect(compiled.querySelector('router-outlet')).toBeNull();
   });
 });
