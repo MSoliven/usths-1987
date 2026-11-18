@@ -9,5 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrls: ['./app.css']
 })
 export class App {
-  readonly maintenanceMode = true;
+  readonly maintenanceMode = false;
 }
