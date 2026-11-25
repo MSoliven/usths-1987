@@ -1126,7 +1126,7 @@ export const sections: SectionData[] = [
       { role: 'President', name: 'Myra C. Laforteza', shortName: 'Myra Laforteza' },
       { role: 'Vice-President', name: 'Michael P. Mutuc', shortName: 'Michael Mutuc' },
       { role: 'Secretary', name: 'Salmer P. Espinosa', shortName: 'Salmer Espinosa' },
-      { role: 'Treasurer', name: 'Mary Gretchen L.Martinez', shortName: 'Gretchen Martinez' },
+      { role: 'Treasurer', name: 'Mary Gretchen L. Martinez', shortName: 'Gretchen Martinez' },
       { role: 'P.R.O.', name: 'Michelle Macapagal', shortName: 'Michelle Macapagal' },
       { role: 'Sgt. at Arms', name: 'Ramil B. Tuason', shortName: 'Ramil Tuason' }
     ],
